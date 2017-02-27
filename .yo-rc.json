@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "demo2",
+    "packageName": "com.prcsteel.demo2",
+    "packageFolder": "com/prcsteel/demo2",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "15c96d7f5f0e04a24d253c466ea350fb339e6ad4",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
